@@ -27,9 +27,9 @@
     # KDE Applications
     ########################################################
 
-    dolphin
-    kate
-    konsole
+    kdePackages.dolphin
+    kdePackages.kate
+    kdePackages.konsole
     ark
 
     ##########################################################
@@ -46,6 +46,7 @@
     zip
     file
     tree
+    feh
   ];
 
   ##########################################################
