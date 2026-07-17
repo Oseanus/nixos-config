@@ -3,7 +3,6 @@
 }:
 
 {
-  # Replace the user name with your own
   users.users.oliver = {
     isNormalUser = true;
 
