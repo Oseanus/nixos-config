@@ -1,8 +1,11 @@
 {
+  pkgs,
   ...
 }:
 
 {
+  programs.zsh.enable = true;
+
   users.users.oliver = {
     isNormalUser = true;
 
@@ -16,6 +19,8 @@
       "wheel"
       "networkmanager"
     ];
+
+    shell = pkgs.zsh;
   };
 
   ##########################################################
