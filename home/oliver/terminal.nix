@@ -33,9 +33,6 @@
       # Open links with Ctrl+Shift+Click
       open_url_with = "default";
 
-      # Disable close confirmation
-      confirm_os_window_close = 0;
-
       # Window behavior
       remember_window_size = true;
     };
