@@ -32,6 +32,21 @@
 
   nixpkgs.config.allowUnfree = true;
 
+
+  # Automatic garbage collection
+  nix.gc = {
+    automatic = true;
+    dates = "weekly"; # or "daily"
+    options = "--delete-older-than 30d";
+  };
+
+  # Optional: automatically optimise the Nix store
+  nix.optimise = {
+    automatic = true;
+    dates = [ "weekly" ];
+  };
+
+
   ##########################################################
   # REQUIRED:
   #
