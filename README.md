@@ -1,9 +1,18 @@
 # NixOS Configuration
 
+
 ## Update flake inputs
 
 ```bash
+cd path/to/your/config/location
 nix flake update
+```
+
+## Symbolic link (optional)
+
+```bash
+sudo mv /etc/nixos /etc/nixos.backup
+sudo ln -s path/to/your/config/location /etc/nixos
 ```
 
 ## Build
