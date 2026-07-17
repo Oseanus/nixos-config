@@ -17,6 +17,7 @@
 
     shellAliases = {
       ls = "eza";
+      la = "eza -a";
       ll = "eza -lah --icons";
       cat = "bat";
       gs = "git status";
