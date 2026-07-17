@@ -13,8 +13,8 @@
       enable_audio_bell = false;
 
       # Appearance
-      background_opacity = "0.90";
-      background_blur = 20;
+      background_opacity = 0.90;
+      # background_blur = 20;
 
       # Padding around terminal content
       window_padding_width = 8;
