@@ -14,6 +14,7 @@
     ../../modules/plasma.nix
     ../../modules/users.nix
     ../../modules/packages.nix
+    ../../modules/printer.nix
   ];
 
   ##########################################################
