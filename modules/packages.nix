@@ -47,6 +47,7 @@
     file
     tree
     feh
+    ffmpeg
     vlc
   ];
 
