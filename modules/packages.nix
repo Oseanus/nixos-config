@@ -52,6 +52,8 @@
     vlc
     libreoffice
     thunderbird
+    lmstudio
+    jetbrains.clion
   ];
 
   ##########################################################
