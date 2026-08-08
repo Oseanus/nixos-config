@@ -38,6 +38,7 @@
     ##########################################################
     
     vscode
+    jetbrains.clion
 
     ########################################################
     # Utilities
@@ -53,6 +54,7 @@
     brightnessctl
     dmidecode
     xrandr
+    kdePackages.kdeconnect-kde
 
     ########################################################
     # Applications
