@@ -49,11 +49,20 @@
     tree
     feh
     ffmpeg
+    pciutils
+    brightnessctl
+    dmidecode
+    xrandr
+
+    ########################################################
+    # Applications
+    ########################################################
+
     vlc
     libreoffice
     thunderbird
     lmstudio
-    jetbrains.clion
+    
   ];
 
   ##########################################################
