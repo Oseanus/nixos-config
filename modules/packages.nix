@@ -22,7 +22,7 @@
     ########################################################
 
     firefox
-    ladybird
+    vivaldi
 
     ########################################################
     # KDE Applications
@@ -55,6 +55,7 @@
     dmidecode
     xrandr
     kdePackages.kdeconnect-kde
+    vivaldi-ffmpeg-codecs
 
     ########################################################
     # Applications
